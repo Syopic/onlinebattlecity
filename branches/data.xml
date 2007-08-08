@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<syo>
+	<news>
+				<n>
+			<content date="27.03.2007" title="Battle City">Последнее время новости здесь не особо обновляются. Больше пишу в блоге: http://syo.com.ua/blog. На днях доделал игру Battle City - играть здесь: http://syo.com.ua/battlecity/</content>
+			<pic_small>data/news/06_05_03/cat_s.jpg</pic_small>
+			<pic_big url_down="data/news/06_05_03/cat_b.jpg">data/news/06_05_03/cat_m.jpg</pic_big>
+		</n>
+			<n>
+			<content date="03.05.2006" title="Майские">У меня как-то не ассоциируется май с праздниками в начале месяца - обычно весь май - на одном дыхании. Маевка не в счет - без понятия.. что это такое? В портфолио накидал несколько работ, которые уже опубликованы на сайтах заказчиков. Оценил приимущества работы дома, а также недостатки - буду пока дома. Из недавней поездки на картошку привез вот это фото некого зверя с голубыми глазами.</content>
+			<pic_small>data/news/06_05_03/cat_s.jpg</pic_small>
+			<pic_big url_down="data/news/06_05_03/cat_b.jpg">data/news/06_05_03/cat_m.jpg</pic_big>
+		</n>
+		<n>
+			<content date="13.12.2005" title="Зима">До сих пор не написал, что мол зима наступила. Да, да, то чего так ждали. Мы уже успели воспльзоваться первым снегом. Правда сейчас его не сыщешь - все растаяло, но зима еще в начале. А на фото некое сооружение сантехнической направленности из снега. Весело было, одним словом.</content>
+			<pic_small>data/news/05_12_13/unitaz_s.jpg</pic_small>
+			<pic_big url_down="data/news/05_12_13/unitaz_b.jpg">data/news/05_12_13/unitaz_d.jpg</pic_big>
+		</n>
+		<n>
+			<content date="26.07.2005" title="Обновления">Привет. В портфолио несколько работ поместил. Лето - сезон отпусков, но видимо для меня таким сезоном станет осень. На ряду с фото от моего брата на сей раз, решил сегодня положить сою песенку. Качайте и слушайте, она небольшая(~700 Kb): http://syo.com.ua/data/music/electrichki.mp3</content>
+			<pic_small>data/news/05_07_26/cat_s.jpg</pic_small>
+			<pic_big url_down="data/news/05_07_26/cat_b.jpg">data/news/05_07_26/cat_d.jpg</pic_big>
+		</n>
+		<n>
+			<content date="04.07.2005" title="Зри в корень! (Козьма Прутков)">Не случайно вспомнил я Мифы и Афоризмы известного оригинала. Читаю запоем книгу -Смотри в корень! автор- П.В. Маковецкий. Это сборник любопытных задач и вопросов по физике (и это читаю я, здававший в институте физику 15 раз.. :)). Ответы еще любопытнее. Очень советую. Мое издание 4-е за 1979, но я нарыл на просторах нашего интернета версию посвежее и в цифровом виде: http://www.n-t.org/ri/mk/sk.htm . На фото очередной зверь - одна из самых моих удачных фотографий :)</content>
+			<pic_small>data/news/05_07_04/gorobec_s.jpg</pic_small>
+			<pic_big url_down="data/news/05_07_04/gorobec_b.jpg">data/news/05_07_04/gorobec_d.jpg</pic_big>
+		</n>
+		<n>
+			<content date="30.05.2005" title="Становится жарко">Да - жарко - не то слово. Хоть бы кондиционеры прикупили, а то на коридоре отстаиваемся, приходим в себя. Сайт понемногу наполняется, и если кто еще не заметил изменений - попробуйте кеш почистить и полистать в работах к концу 2003 года. Тогда сделалось немало прикольных игр. Вот только сейчас закончил наполнять студийные работы.. многое пропустил - уже не того уровня флешки. Двльше буду рыться в закромах: чего еще другого понаделывал. Спасибо, что навещаете - некоторые, как видно по статистике уже прижились, заходят просто поиграть. На фото - божья коровка.. сонечко в простонароде.</content>
+			<pic_small>data/news/05_05_30/sonechko_s.jpg</pic_small>
+			<pic_big url_down="data/news/05_05_30/sonechko_b.jpg">data/news/05_05_30/sonechko_d.jpg</pic_big>
+		</n>
+		<n>
+			<content date="25.04.2005" title="ВабБабаЛюба-Бабабам!">В жизни бывает всякое, но такое лишь однажды да и то не у всех... :))) Я самый счастливый человек теперь... Осталось только дерево посадить (то, что свкрху здесь - не считается) и построить дом. :) Эта белка заснята в день рождение моего сына - 14 апреля.</content>
+			<pic_small>data/news/05_04_25/belka_s.jpg</pic_small>
+			<pic_big url_down="data/news/05_04_25/belka_b.jpg">data/news/05_04_25/belka_d.jpg</pic_big>
+		</n>
+		<n>
+			<content date="04.04.2005" title="Продолжаем">Хотя тут толком никого не бывает, продолжаю наполнять раздел "Рукотворство". Из хороших новостей - это вышли Казаки 2. На фото - персональная одомашненная мышка, жившая когда-то у нас пару дней. Можно сказать - вписалась на флет нанемного. Запечатлена во время трапезы в банке объема 3 л.</content>
+			<pic_small>data/news/05_04_04/mouse_s.jpg</pic_small>
+			<pic_big url_down="data/news/05_04_04/mouse_d.jpg">data/news/05_04_04/mouse_b.jpg</pic_big>
+		</n>
+		<n>
+			<content date="18.03.2005" title="Это уже кое-что">Не работает еще отсылка на мыло да и внутри придется еще похлопотать. А так, потихоньку можно уже начинать наполнять портфолио (благо его дофига уже, на винте под 4 Гб). Может еще хинты сделать, но это если очень захочется и будет нужно. Фотка справа выбиралась случайно, чтобы просто показать функционал (Хотя эта собака довольно оригинальносправляла нужду :)).</content>
+			<pic_small>data/news/05_03_18/sobaka_s.jpg</pic_small>
+			<pic_big url_down="data/news/05_03_18/sobaka_d.jpg">data/news/05_03_18/sobaka_b.jpg</pic_big>
+		</n>
+	</news>
+	<works>
+		<w>
+			<content date="08.06.2006" title="Игра для WooDoo" url="http://woodoo.ru/play.html">WOODOO - противоугонная система с биометрической идентификацией водителя. Разработка программной части игры, в рамках сотрудничества с РА Art-Com WP.</content>
+			<ico>data/works/06_06_08_gameBlock/ico.jpg</ico>
+			<concepts>
+				<pic>data/works/06_06_08_gameBlock/c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="19.01.2006" title="Сайт TWIXBREACK" url="http://twixbreak.com.ua">Сборка и оптимизация сайта twixbreak.com.ua. Дизайн делал наш (WWS) дизайнер Надин  - как по мне очень креативно.</content>
+			<ico>data/works/06_01_19_twix/ico.jpg</ico>
+			<concepts>
+				<pic>data/works/06_01_19_twix/c1.jpg</pic>
+				<pic>data/works/06_01_19_twix/c2.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="08.12.2005" title="Музыкальный микшер для TWIXBREACK" url="http://twixbreak.com.ua/rus/createmelody.aspx">Микшер этот - некое что-то, что заставило попотеть - это и синхронизация дорожек и внешние шарные библиотеки - одним словом все средства для работы со звуком пришлось заюзать. Пользоваться просто - тащите пластинки на дорожки и запускайте.</content>
+			<ico>data/works/05_12_08_player/ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_12_08_player/c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="17.11.2005" title="Технология управления устройствами" url="http://www.microth.com/circumscript/keywheel_demo.asp">Продолжая свое сотрудничество с ребятами из Microth, сделал флешку, которая демонстрирует управление разного рода устройствами с помощью этого колеса.</content>
+			<ico>data/works/05_11_17_inputtext/ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_11_17_inputtext/c1.jpg</pic>
+			</concepts>
+		</w>		
+		<w>
+			<content date="14.10.2005" title="Технология ввода символов от Microth" url="data/works/05_10_14_inputtext/index.htm">Сначала прочитал на Мембране, а потом в Компьюленте об этом способе ввода символов для портативных устройств. Начал рыться... идея оказалась не нова, но в данном случае доведена до ума. Зачесались руки попробовать это в работе. Когда опубликовал это в сеть, спустя пару дней на меня вышла Microth и попросила сделать им демонстрацию на сайт.</content>
+			<ico>data/works/05_10_14_inputtext/ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_10_14_inputtext/c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="03.10.2005" title="Игра Монополия" url="http://syo.com.ua/blog/?p=12">Это не флеш-игра, как может показаться. Это переделка бумажной версии. Вышло весело.</content>
+			<ico>data/works/05_10_03_monopoly/ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_10_03_monopoly/c1.jpg</pic>
+				<pic>data/works/05_10_03_monopoly/c2.jpg</pic>
+				<pic>data/works/05_10_03_monopoly/c3.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="02.09.2005" title="Меню а-ля Макинтош" url="data/works/05_09_02_menu/index.htm">Гибкое в использовании. Все данные - через XML</content>
+			<ico>data/works/05_09_02_menu/ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_09_02_menu/c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="08.08.2005" title="Реверси. Игра" url="data/works/05_08_08_reversi/index.htm">Всегда хотел сделать. Вот, сделал. Может разве что комп подмуштровать нужно.</content>
+			<ico>data/works/05_08_08_reversi/ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_08_08_reversi/c1.jpg</pic>
+			</concepts>
+		</w>
+				<w>
+			<content date="10.06.2005" title="ЖабоТуборг. Игра" url="data/works/05_06_10_frog/index.htm">Есть такое поверье, что если зеленую и пищащую крышечку от пива Туборг изковеркать определенным макаром - она превратится... в жабу. Это и есть сценарий этой незатейливой игры. Нажмите на жабу, натяниете мышкой - отпускайте.</content>
+			<ico>data/works/05_06_10_frog/ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_06_10_frog/c1.jpg</pic>
+				<pic>data/works/05_06_10_frog/c2.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="05.04.2005" title="Портал UMC" url="http://umc.ua">Много всякой всячины для портала UMC. Это и стартовая, и меню на внутренних страницах. Также сравнение тарифов. Все завязано на динамике и работает автономно. Сделано в WorldWebStudio.</content>
+			<ico>data/works/05_04_05_site/ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_04_05_site/c1.jpg</pic>
+				<pic>data/works/05_04_05_site/c2.jpg</pic>
+				<pic>data/works/05_04_05_site/c3.jpg</pic>
+				<pic>data/works/05_04_05_site/c4.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="05.04.2005" title="Анонс на на сайте канала ICTV" url="http://ictv.ua">Топовая флешка тянет свежие анонсы и выводит скриншоты. Сделано в WorldWebStudio.</content>
+			<ico>data/works/05_03_29_top/ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_03_29_top/c1.jpg</pic>
+				<pic>data/works/05_03_29_top/c2.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="22.03.2005" title="Первоапрельское меню" url="data/works/05_03_22_menu/index.htm">Меню убегает от мышки. 1-го апреля висело на ДжинсКлубе. Сделано в WorldWebStudio.</content>
+			<ico>data/works/05_03_22_menu/menu_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_03_22_menu/menu_c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="03.02.2005" title="Ооткрытка к 8 марта" url="data/works/05_02_03_card/index.htm">Макет от Силантьева Дмитрия (WWS), а я флешевал. Сделано в WorldWebStudio</content>
+			<ico>data/works/05_02_03_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_02_03_card/card_c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="28.01.2005" title="Paintball. Игра" url="data/works/05_01_28_game/index.htm">Управление курсорными клавишами и мышкой. Выстрел - клик. Клиент увидел в онлайне такую - захотелось себе. Уровни нарисовал Силантьев Дмитрий, а сплешку - Слеш. Сделано в WWS.</content>
+			<ico>data/works/05_01_28_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_01_28_game/game_c1.jpg</pic>
+				<pic>data/works/05_01_28_game/game_c2.jpg</pic>
+				<pic>data/works/05_01_28_game/game_c3.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="26.01.2005" title="Бешенные бабки. Игра" url="data/works/05_01_26_game/index.htm">Задача - загнать бабок в разного рода безопасные места, избегая всяких ям и люков. Бабки сматываются от мышки. Уровни нарисовал Силантьев Дмитрий, а сплешку - Слеш. Сделано в WWS.</content>
+			<ico>data/works/05_01_26_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_01_26_game/game_c1.jpg</pic>
+				<pic>data/works/05_01_26_game/game_c2.jpg</pic>
+				<pic>data/works/05_01_26_game/game_c3.jpg</pic>
+				<pic>data/works/05_01_26_game/game_c4.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="24.01.2005" title="Love darts. Игра." url="data/works/05_01_24_game/index.htm">Игра к 14 февраля. Тут представлена урезанная версия, а в полной можно было выбрать себе жертву из числа зарегистрированных юзеров на сайте и расстрелять ее.</content>
+			<ico>data/works/05_01_24_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_01_24_game/game_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="10.01.2005" title="Карта-схема склонов горы Тростян" url="data/works/05_01_10_map/index.htm">Работа для сайта trostian.com. Клуб любителей Тростяна  - сплаченная и веселая компания, котороя много делает для облагораживания горнолыжного курорта в Славском. И я там был, мед, пиво, водка, чинахи, дыруны.... Эх.. А лыжи, а снег... Стоп. Увлекся.</content>
+			<ico>data/works/05_01_10_map/map_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/05_01_10_map/map_c1.jpg</pic>
+				<pic>data/works/05_01_10_map/map_c2.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="21.12.2004" title="Водомерка. Игра." url="data/works/04_12_21_game/index.htm">Веселая игрулька такая. Управление  - одним кликом. Задача - как можно дольше не врезаться в желтые островки.</content>
+			<ico>data/works/04_12_21_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_12_21_game/game_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="21.12.2004" title="ScreenSaver" url="data/works/04_12_21_screen/index.htm">Студийный хранитель экрана. Дизайнеры надизайнили - я зафлешевал. Показывает время, дату. Меняет цвет в зависимости от дня недели.</content>
+			<ico>data/works/04_12_21_screen/screen_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_12_21_screen/screen_c1.jpg</pic>
+			</concepts>
+		</w>		
+		<w>
+			<content date="21.12.2004" title="Фоторобот" url="data/works/04_12_21_editor/index.htm">Редактор аватаров версии второй. Изображение после сохранения преобразуется в PNG картинку. Некоторое время висел на Джинс-Портале.</content>
+			<ico>data/works/04_12_21_editor/editor_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_12_21_editor/editor_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="16.12.2004" title="Редактор дедов морозов" url="data/works/04_12_16_editor/index.htm">Такая вот незатейливая открытка. Если кликнуть на ней, а потом набрать about кое-что произойдет. На злобу того дня еще...</content>
+			<ico>data/works/04_12_16_editor/editor_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_12_16_editor/editor_c1.jpg</pic>
+			</concepts>
+		</w>
+				<w>
+			<content date="14.12.2004" title="Логотип для иконной мастерской" url="data/works/04_12_14_ico/pic.jpg">Было дело, я и сам там работал  - верстаки гонял и киоты клеил, а потом вот ребята обратились - нарисовал как сумел.</content>
+			<ico>data/works/04_12_14_ico/ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_12_14_ico/c1.jpg</pic>
+			</concepts>
+		</w>
+		
+		<w>
+			<content date="10.12.2004" title="Хранитель экрана" url="data/works/04_12_10_screen/index.htm">Снежинки медленно укрывают лого по всем законам физики.</content>
+			<ico>data/works/04_12_10_screen/screen_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_12_10_screen/screen_c1.jpg</pic>
+			</concepts>
+		</w>		
+		<w>
+			<content date="06.12.2004" title="Новогодняя открытка" url="data/works/04_12_06_card/index.htm">Дизайнеры нарисовали, а я все остальное.</content>
+			<ico>data/works/04_12_06_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_12_06_card/card_c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="02.12.2004" title="Новогодняя игра" url="data/works/04_12_02_game/index.htm">На стартовой странице сайта висела. 10 Кб всего - можно к баннеру прировнять. Играть кликом мышки. Весело зарывается в сугроб :)</content>
+			<ico>data/works/04_12_02_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_12_02_game/game_c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="26.11.2004" title="ScreenSaver" url="data/works/04_11_26_screen/index.htm">Вот такой простой скринсейвер. Может кому нужен...</content>
+			<ico>data/works/04_11_26_screen/screen_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_11_26_screen/screen_c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="18.11.2004" title="Новогодняя музыкальная открытка" url="data/works/04_11_18_card/index.htm">Открытка-обучалка игры на пианино. Кликнув по скрипичному ключу можно прослушать демонстрацию песенки новогодней. Потом дается возможность сыграть ее самому(нужные клавиши подсвечиваются красным). Из всех мелодий приличнее всего звучит "В лесу родилась елочка". "Колыбельная Умки" включена как любимая новогодняя. Но там с нотами проблеммы вышли. Можно также играть клавишами клавиатурными и даже брать аккорды. Сделано в WorldWebStudio.</content>
+			<ico>data/works/04_11_18_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_11_18_card/card_c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="29.10.2004" title="Несколько флешек" url="data/works/04_10_29_inner/index.htm">Несколько флешек. Первая - это карта, чтобы было понятнее как проехать :0). Вторая - миниредактор графический. Дальше - рыбки, которых можно кормить.</content>
+			<ico>data/works/04_10_29_inner/inner_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_10_29_inner/inner_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="22.10.2004" title="Фоторобот" url="data/works/04_10_22_editor/index.htm">Такой себе редактор аватаров. Малость недоделаный, т.к. эта его версия не осуществилась. Потом была другая...</content>
+			<ico>data/works/04_10_22_editor/editor_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_10_22_editor/editor_c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="04.10.2004" title="Сокобан" url="data/works/04_10_10_game/index.htm">Очень часто эксплуатирую эту игру под свои и соответственно клиенские нужды. Так получилось... Рисовал Slash - наш дизайнер. Сделано в WWS.</content>
+			<ico>data/works/04_10_10_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_10_10_game/game_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="16.09.2004" title="Микроигры" url="data/works/04_09_16_game/index.htm">Игры планировалось разместить в теле сайта, как некие ничем неприметные штуки, за которыми кроется целая игра. Чтобы начать игру - стоит лишь навести на нее мышкой. Все они знакомы с детства, так что с управлением разберетесь :)</content>
+			<ico>data/works/04_09_16_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_09_16_game/game_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="02.08.2004" title="Редактор логотипов для мобильника" url="data/works/04_08_02_editor/index.htm">Редактор для создания логотипов, заставок и всякого рода мобильной графики. Интерфейс тоже мой. Кроме простого рисования карандашем можно вставлять готовые шаблонные картинки и писать текст (в XML прописаны все символы и учитывается отступ для каждого). Есть функция негатива. Также писался отдельный редактор для перевода в XML шаблонов и символов шрифта. Чтобы флеш вытянул такое колличество квадратиков - пришлось извратится и рисовать их линиями. Это можно пронаблюдать, если качество флешки в high перевести. И как часто бывает - этот редактор так и не нашел себе места в онлайне. А сейчас черно-белый он никому не нужен. Или нужен?</content>
+			<ico>data/works/04_08_02_editor/editor_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_08_02_editor/editor_c1.jpg</pic>
+				<pic>data/works/04_08_02_editor/editor_c2.jpg</pic>
+			</concepts>
+		</w>		
+		<w>
+			<content date="23.07.2004" title="Развиваем память. Игра." url="data/works/04_07_23_game/index.htm">Непрошедшая из-за сложности :) демонстрационная версия игры. Она оказалась самодостаточной - поэтому и решил выложить. Развивает память, наверное. </content>
+			<ico>data/works/04_07_23_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_07_23_game/game_c1.jpg</pic>
+			</concepts>
+		</w>			
+		<w>
+			<content date="09.06.2004" title="Карта для Славутича" url="data/works/04_06_09_map/index.htm">Простенькая карта представительств пива Славутич на Украине. Смешно сейчас выглядит, но скопировать информацию выводимую не представляется возможным. Разве что просмотреть :)</content>
+			<ico>data/works/04_06_09_map/map_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_06_09_map/map_c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="22.04.2004" title="Макет баннерной сетки" url="">Макет баннерной сетки для UMC. Оригинальные иконки.</content>
+			<ico>data/works/04_04_22_gui/gui_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_04_22_gui/gui_c1.jpg</pic>
+				<pic>data/works/04_04_22_gui/gui_c2.jpg</pic>
+				<pic>data/works/04_04_22_gui/gui_c3.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="26.03.2004" title="Редактор крашанок" url="data/works/04_03_26_editor/index.htm">На сайте можно было нарисовать и отослать товарищу. Можно вращая рисовать... Такое себе псевдо 3D.</content>
+			<ico>data/works/04_03_26_editor/editor_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_03_26_editor/editor_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="16.03.2004" title="Карта дилеров УкрАвто" url="data/works/04_03_16_map/index.htm">В подобных случаях разработку интерфейса беру на себя. Генерируемый с базы XML подхватывается и на его основе строится меню. Дальше можно просмотреть данные по областям и т.п. Навигационные окна можно таскать и они изменяются в размерах в зависимости от контента в них. Навешены хинты и всякие понты... :)</content>
+			<ico>data/works/04_03_16_map/map_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_03_16_map/map_c1.jpg</pic>
+				<pic>data/works/04_03_16_map/map_c2.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="04.02.2004" title="Меню на сайт УкрАвто" url="data/works/04_02_21_menu/index.htm">Такое вот резиновое захотели. Данные читаются с XML - все как положено.</content>
+			<ico>data/works/04_02_21_menu/menu_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_02_21_menu/menu_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="29.01.2004" title="Лабиринт. Клон пакмена" url="data/works/04_01_29_game/index.htm">Игра была сделана за 4 дня, т.к. срывалась поездка в Карпаты :). Есть даже редактор уровней к ней.</content>
+			<ico>data/works/04_01_29_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_01_29_game/game_c1.jpg</pic>
+				<pic>data/works/04_01_29_game/game_c2.jpg</pic>
+				<pic>data/works/04_01_29_game/game_c3.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="24.01.2004" title="Фотоохота на звезд. Игра." url="data/works/04_01_24_game/index.htm">Приурочена к выпуску самсунговского камерофона со вспышкой. Нужно подловить в свету некую звезду и запечатлить, так сказать. Чем удачнее фото получится, тем больше очков дается. Сделано в WorldWebStudio.</content>
+			<ico>data/works/04_01_24_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/04_01_24_game/game_c1.jpg</pic>
+				<pic>data/works/04_01_24_game/game_c2.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="23.12.2003" title="Кристаломания. Игра" url="data/works/03_12_22_game/index.htm">Почти полная копия DrMario от Nintendo. Всегда хотелось ее сделать, а тут заказчик пожелал :))</content>
+			<ico>data/works/03_12_22_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_12_22_game/game_c1.jpg</pic>
+				<pic>data/works/03_12_22_game/game_c2.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="15.12.2003" title="Новогодняя открытка" url="data/works/03_12_15_card/index.htm">Веселое муз-сопровождение.</content>
+			<ico>data/works/03_12_15_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_12_15_card/card_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="04.12.2003" title="Cave. Игра" url="data/works/03_12_04_game/index.htm">Cave. Многие знают эту игрушку. Тут просто добавлены разного рода монетки и прочая ерундень. Управление кликом. Сделано в WorldWebStudio.</content>
+			<ico>data/works/03_12_04_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_12_04_game/game_c1.jpg</pic>
+				<pic>data/works/03_12_04_game/game_c2.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="03.12.2003" title="Переправь сокровища. Игра" url="data/works/03_12_03_game/index.htm">Это ремейк старой игры Електроника. Вместо сокровищ там летали маленькие инопланетяне в скафандрах. Подсказка: сложностью можно манипулировать -  (+ -). Сделано в WorldWebStudio.</content>
+			<ico>data/works/03_12_03_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_12_03_game/game_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="03.12.2003" title="Открытка для SC DOM" url="data/works/03_12_03_card/index.htm">Использована фотография одного фотографа (вспомнить бы какого)... Но с правами все ок - она была куплена для сайта. </content>
+			<ico>data/works/03_12_03_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_12_03_card/card_c1.jpg</pic>
+			</concepts>
+		</w>		
+		<w>
+			<content date="18.11.2003" title="Круглый арканоид. Игра" url="data/works/03_11_18_game/index.htm">Попытка немного округлить класический арканоид. </content>
+			<ico>data/works/03_11_18_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_11_18_game/game_c1.jpg</pic>
+				<pic>data/works/03_11_18_game/game_c2.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="01.11.2003" title="Карта покрытия UMC" url="http://www.script.com.ua/temp/cut/map.php">Довольно оригинальная разработка. Когда предстала задача сделать карту покрытия, основными требованиями были: не перегружаемость страницы при навигации и возможность давать ссылки на точки в карте. Все удалось и даже больше, но пришлось изрядно попариться. Порезка самой карты на куски заняла изрядно времени. На то время приходилось искать быстрые машины на стороне. Сейчас она выглядит немного старомодно и уже маленькая в размерах для современных разрешений. </content>
+			<ico>data/works/03_11_01_map/map_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_11_01_map/map_c1.jpg</pic>
+				<pic>data/works/03_11_01_map/map_c2.jpg</pic>
+				<pic>data/works/03_11_01_map/map_c3.jpg</pic>
+				<pic>data/works/03_11_01_map/map_c4.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="18.09.2003" title="Живите в мире. Игра." url="data/works/03_09_18_game/index.htm">Такая вот игра-стрелялка. Цель игры - успокоить свои нервы. :) Остаются следы от пуль, и особенно эффектно это наблюдается при попадании в диван. Для игры заполните несколько полей, а то она не начнется... Сделано в WorldWebStudio. Дизайн уровней и заставки - Slash.</content>
+			<ico>data/works/03_09_18_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_09_18_game/game_c1.jpg</pic>
+				<pic>data/works/03_09_18_game/game_c2.jpg</pic>
+				<pic>data/works/03_09_18_game/game_c3.jpg</pic>
+				<pic>data/works/03_09_18_game/game_c4.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="10.09.2003" title="Презентация для CityNet" url="data/works/03_09_10_pre/index.htm">Презентация на трех языках. Висит на сайте CityNet.</content>
+			<ico>data/works/03_09_10_pre/pre_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_09_10_pre/pre_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="21.08.2003" title="Battle City. Игра." url="data/works/03_08_21_game/index.htm">Редкий тот человекк, который не играл или не видел Battle City. Я попытался сообразить ее на Flash. Попытка довольно удачная, но не хватило задора довести ее до конца - просто доказал себе, что возможно такое. Она вполне играбельна, но некоторые глюки остались. Приемы реализованные в ней использую и по сей день. Жмите пробел для начала. Он же является выстрелом. Бонусы тоже работают. </content>
+			<ico>data/works/03_08_21_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_08_21_game/game_c1.jpg</pic>
+				<pic>data/works/03_08_21_game/game_c2.jpg</pic>
+				<pic>data/works/03_08_21_game/game_c3.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="02.07.2003" title="Презентация для UMC Business" url="data/works/03_07_02_pre/index.htm">Презентация для UMC Business. Самая обычная :)</content>
+			<ico>data/works/03_07_02_pre/pre_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_07_02_pre/pre_c1.jpg</pic>
+				<pic>data/works/03_07_02_pre/pre_c2.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="08.05.2003" title="Открытка к Дню Победы" url="data/works/03_05_08_card/index.htm">Оказывается и такое было. Чего только не найдешь в загашниках. Делалась быстро, ибо от души и сердца, так сказать.</content>
+			<ico>data/works/03_05_08_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_05_08_card/card_c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="21.04.2003" title="Открытка к пасхе" url="data/works/03_04_21_card/index.htm">Делалась по полиграфическому макету.</content>
+			<ico>data/works/03_04_21_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_04_21_card/card_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="18.04.2003" title="Игра для Славутича" url="data/works/03_04_18_game/index.htm">Игра так и не закончена, но все же захотелось показать что было сделано. Кроме человечков, которые были взяты на время из ХаббоХотел все остальные предметы рисовались с особым увлечением. В игру можно поиграть, но многого там просто нет. Управление курсорными клавишами (право и лево). Пиво бросать - пробелом. Чтоб затариться - поворачивайтесь к двери и жмите пробел. У меня рекорд где-то за 800...</content>
+			<ico>data/works/03_04_18_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_04_18_game/game_c1.jpg</pic>
+				<pic>data/works/03_04_18_game/game_c2.jpg</pic>
+				<pic>data/works/03_04_18_game/game_c3.jpg</pic>
+				<pic>data/works/03_04_18_game/game_c4.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="11.03.2003" title="Стартовая сайта Славутич" url="data/works/03_03_11_index/index.htm">Висела пару лет на <a href="http://www.slavutich.ua">slavutich.ua</a>. Меню выпадает, иконки можно таскать.</content>
+			<ico>data/works/03_03_11_index/index_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_03_11_index/index_c1.jpg</pic>
+				<pic>data/works/03_03_11_index/index_c2.jpg</pic>
+			</concepts>
+		</w>		
+		<w>
+			<content date="05.03.2003" title="Открытка к 8-му марта" url="data/works/03_03_05_card/index.htm">Вот такая открытка. Не напрягает, что и требовалось.</content>
+			<ico>data/works/03_03_05_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_03_05_card/card_c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="28.02.2003" title="Презентация для UMC" url="data/works/03_02_28_pre/index.htm">Показывает, как пользоваться ММС. Пришлось нарисовать все внутренние интерфейсы телефона в векторе.</content>
+			<ico>data/works/03_02_28_pre/pre_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_02_28_pre/pre_c1.jpg</pic>
+				<pic>data/works/03_02_28_pre/pre_c2.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="19.02.2003" title="Мотоигра" url="data/works/03_02_19_game/index.htm">Простенькая игра для Славутича. Нужно собирать билетики и избегать крышки. Сделано в WWS.</content>
+			<ico>data/works/03_02_19_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_02_19_game/game_c1.jpg</pic>
+				<pic>data/works/03_02_19_game/game_c2.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="13.02.2003" title="Пазлы" url="data/works/03_02_13_game/index.htm">Пазлы для Славутича. Собрать нужно за определенное время. Поймав кусок пазла пробелом можно поворачивать его. Работает привязка к местности :). Сделано в WorldWebStudio.</content>
+			<ico>data/works/03_02_13_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/03_02_13_game/game_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="26.12.2002" title="Новогодняя открытка" url="data/works/02_12_26_card/index.htm">Был год овцы....</content>
+			<ico>data/works/02_12_26_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_12_26_card/card_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="24.12.2002" title="Новогодняя открытка для Intercar" url="data/works/02_12_24_card/index.htm">Немного обескураживает американизм на фоне В лесу родилась елочка, но так хотелось заказчику...</content>
+			<ico>data/works/02_12_24_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_12_24_card/card_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="23.12.2002" title="Новогодняя открытка для Utel" url="data/works/02_12_23_card/index.htm">Открытка для фирмы Utel. Дизайн не мой и даже музычка из ДДТ. Но ничего так вышло :)</content>
+			<ico>data/works/02_12_23_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_12_23_card/card_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="20.12.2002" title="Новогодняя открытка для UMC" url="data/works/02_12_20_card/index.htm">Это больше исключение, чем правило, учитывая политику корпоративного стиля в UMC.</content>
+			<ico>data/works/02_12_20_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_12_20_card/card_c1.jpg</pic>
+			</concepts>
+		</w>		
+		<w>
+			<content date="14.11.2002" title="Новогодняя открытка WWS" url="data/works/02_11_15_card/index.htm">Некая новогодняя открытка.. корпоративная, наверное. Тут не обошлось без вмешательства дизайнеров... И еще мелодия в конце мне очень нравится.</content>
+			<ico>data/works/02_11_15_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_11_15_card/card_c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="14.11.2002" title="Новогодняя открытка WWS" url="data/works/02_11_14_card/index.htm">Некоторые мои анимационные опусы. Дед вышел ничего, а вот котяра толком не научился передвигаться.</content>
+			<ico>data/works/02_11_14_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_11_14_card/card_c1.jpg</pic>
+				<pic>data/works/02_11_14_card/card_c2.jpg</pic>
+			</concepts>
+		</w>	
+		
+		<w>
+			<content date="29.10.2002" title="Презентация Utel" url="data/works/02_10_29_pre/index.htm">Презентация для Utel. В ролях соглядатаев наши студийцы..., я кстати самый левый. :). Весит 2.5 метра. Имейте ввиду, прежде чем смотреть.</content>
+			<ico>data/works/02_10_29_pre/pre_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_10_29_pre/pre_c1.jpg</pic>
+				<pic>data/works/02_10_29_pre/pre_c2.jpg</pic>
+				<pic>data/works/02_10_29_pre/pre_c3.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="20.09.2002" title="Игра Hacker" url="data/works/02_09_20_game/index.htm">Логическая игра. Нужно повторить предоставленый рисунок, следуя определенным правилам. Довольно играбельно вышло.</content>
+			<ico>data/works/02_09_20_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_09_20_game/game_c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="17.09.2002" title="Презентация WWS" url="data/works/02_09_17_pre/index.htm">Презентация для WorldWebStudio.</content>
+			<ico>data/works/02_09_17_pre/preza_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_09_17_pre/preza_c1.jpg</pic>
+				<pic>data/works/02_09_17_pre/preza_c2.jpg</pic>
+				<pic>data/works/02_09_17_pre/preza_c3.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="05.09.2002" title="Игра Memory" url="data/works/02_09_05_game/index.htm">Ничего необычного. </content>
+			<ico>data/works/02_09_05_game/game_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_09_05_game/game_c1.jpg</pic>
+			</concepts>
+		</w>	
+		<w>
+			<content date="20.08.2002" title="Открытка для UMC" url="data/works/02_08_20_card/index.htm">Открытка к дню независимости.</content>
+			<ico>data/works/02_08_20_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_08_20_card/card_c1.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="01.08.2002" title="Открытка для UMC" url="data/works/02_08_01_card/index.htm">Открытка к 9-летию компании. Делалась на основе готовых картинок и фирменной музыки. Попытки синхронизировать звук с анимацией.</content>
+			<ico>data/works/02_08_01_card/card_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_08_01_card/card_c1.jpg</pic>
+				<pic>data/works/02_08_01_card/card_c2.jpg</pic>
+			</concepts>
+		</w>
+		<w>
+			<content date="27.07.2002" title="Маленькая Берта. Игра." url="data/works/02_07_27_berta/index.htm">Это моя ранняя работа на Flash. Делалась еще в пятой версии, хотя это не есть оправданием ее притормаживания даже на быстрых машинах. В ту пору делалось все наощупь. Управление курсорными клавишами, пробел - это выстрел. Кроме того можно таскать вещички.. те, что в правом углу :) </content>
+			<ico>data/works/02_07_27_berta/berta_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_07_27_berta/berta_c1.jpg</pic>
+				<pic>data/works/02_07_27_berta/berta_c2.jpg</pic>
+			</concepts>
+		</w>		
+		<w>
+			<content date="04.04.2002" title="Кости. Игра." url="data/works/02_04_04_kosti/index.htm">Было так давно, что трудно вспомнить когда. Файл датируется 4-м апреля. Все же решил положить его сюда для статистики. Игра в кости - ничего особенного. Правила, правда, какие-то свои - сам их сейчас не понимаю :). </content>
+			<ico>data/works/02_04_04_kosti/kosti_ico.jpg</ico>
+			<concepts>
+				<pic>data/works/02_04_04_kosti/kosti_c1.jpg</pic>
+			</concepts>
+		</w>		
+	</works>
+	<info>
+		<about>
+			<skils>Смотрите раздел -РАБОТЫ-</skils>
+		</about>
+	</info>
+</syo>
