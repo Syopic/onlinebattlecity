@@ -1,4 +1,4 @@
- *Battle City FAQ -- NES*
+ Battle City FAQ -- NES
 
  By Orochi K
  kartelkertra  caramail  com
@@ -267,5 +267,4 @@
 
 
  ? 2002, Orochi K. All rights reserved.
-
 
