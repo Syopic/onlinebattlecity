@@ -1,0 +1,20 @@
+ErrorDocument 403 /index.html
+AddDefaultCharset windows-1251 
+
+DirectoryIndex index.php index.html index.htm
+
+## Документы на диске в кодировке koi8-r
+#AddDefaultCharset koi8-r
+
+## Документы на диске в кодировке windows-1251
+AddDefaultCharset windows-1251
+
+## Документы на диске в кодировке iso-8859-1 (English, etc)
+#AddDefaultCharset iso-8859-1
+
+## Документы на диске в кодировке utf-8
+#AddDefaultCharset utf-8
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} .*jpg$|.*jpeg$|.*jpe$|.*gif$|.*png$|.*swf$ [NC]
+RewriteCond %{HTTP_REFERER} !^$

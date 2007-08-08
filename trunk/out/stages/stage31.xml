@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<stage enemys="11111111111111111111">
+	<r>______ww________ww________</r>
+	<r>______ww________ww________</r>
+	<r>wwww__ww__wwwwwwww__wwwwww</r>
+	<r>wwww__ww__wwwwwwww__wwwwww</r>
+	<r>ggggbb____bb____ww__wwggww</r>
+	<r>ggggbb____bb____ww__wwggww</r>
+	<r>ggwwwwwwww__ff____bbgggggg</r>
+	<r>ggwwwwwwww__ff____bbgggggg</r>
+	<r>gggg__ww____ww__wwwwwwwwgg</r>
+	<r>gggg__ww____ww__wwwwwwwwgg</r>
+	<r>wwww__ww__wwww____ww______</r>
+	<r>wwww__ww__wwww____ww______</r>
+	<r>____bbggbb__bbgg__ww____ww</r>
+	<r>____bbggbb__bbgg__ww____ww</r>
+	<r>__wwwwggwwwwwwww__ggbb__ww</r>
+	<r>__wwwwggwwwwwwww__ggbb__ww</r>
+	<r>bb____bb____ww__ggggww__ww</r>
+	<r>bb____bb____ww__ggggww__ww</r>
+	<r>wwww__wwww__wwbbwwwwww____</r>
+	<r>wwww__wwww__wwbbwwwwww____</r>
+	<r>____bb__gggg____ggww____ww</r>
+	<r>____bb__gggg____ggww____ww</r>
+	<r>__wwwwwwgg________ww__wwww</r>
+	<r>__wwwwwwgg________ww__wwww</r>
+	<r>__ww______________________</r>
+	<r>__ww______________________</r>
+</stage>
+
+
+<!-- 
+######## legend #######
+enemys:
+1 - simple tank
+2 - speed tank
+3 - speedshot tank
+4 - big tank
+
+5 - bonus simple tank
+6 - bonus speed tank
+7 - bonus speedshot tank
+8 - bonus big tank
+
+tiles:
+_ - empty
+b - brick
+f - iron block
+w - water
+i - ice
+g - garden
+
+!-->
