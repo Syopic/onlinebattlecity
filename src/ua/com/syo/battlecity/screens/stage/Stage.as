@@ -280,7 +280,7 @@ class ua.com.syo.battlecity.screens.stage.Stage extends MovieClip implements AsB
 			}
 		}
 		
-		//		global bonus instance. instanse every one
+//				global bonus instance. instanse every one
 		CurrentStageData.setBonusInstance(bonus);
 		AllSounds.getInstance().playSetBonus();
 	}
@@ -579,6 +579,7 @@ class ua.com.syo.battlecity.screens.stage.Stage extends MovieClip implements AsB
 	
 	private function skipStage(): Void
 	{
+		this.tank.disableControl();
 		AllSounds.getInstance().stopIntro();
 		GlobalStorage.lifesNum = beginLifesNum;
 		GlobalStorage.score = beginScore;
