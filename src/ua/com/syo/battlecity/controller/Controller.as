@@ -49,7 +49,6 @@ class ua.com.syo.battlecity.controller.Controller
 		{
 			GlobalStorage.currentStage = 0;
 			this.onIdStage(GlobalStorage.currentStageId);
-//			trace("currentStage: "+GlobalStorage.currentStage);
 		}
 		else
 		{
@@ -60,7 +59,6 @@ class ua.com.syo.battlecity.controller.Controller
 	public function onCloseSplashMenu(): Void
 	{
 		UIManager.getInstance().showSelectStage(GlobalStorage.currentStage);
-//		UIManager.getInstance().onGameOver();
 	}	
 	
 	public function onSelectStage(stage: Number): Void
