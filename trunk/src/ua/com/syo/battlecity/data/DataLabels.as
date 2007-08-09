@@ -23,7 +23,7 @@ class ua.com.syo.battlecity.data.DataLabels {
 	public static var SPLASH_NAMCO_COPYRIGHT :String = "© 1980 2007 namco ltd.";
 	public static var SPLASH_ALL_RIGHT :String =         "all rights reserved";
 	public static var SPLASH_SYO_COPYRIGHT :String =     "2007     syo.com.ua";
-	public static var SPLASH_VERSION :String =     "v. 1.25";
+	public static var SPLASH_VERSION :String =     "v. 1.2.6";
 	
 	public static var TOTAL_HI_SCORE :String = "hi-score";
 	public static var TOTAL_FIRST_PLAYER :String = "|-player";

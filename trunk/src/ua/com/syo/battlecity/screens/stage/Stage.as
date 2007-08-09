@@ -280,7 +280,7 @@ class ua.com.syo.battlecity.screens.stage.Stage extends MovieClip implements AsB
 			}
 		}
 		
-//				global bonus instance. instanse every one
+		//				global bonus instance. instanse every one
 		CurrentStageData.setBonusInstance(bonus);
 		AllSounds.getInstance().playSetBonus();
 	}
@@ -419,7 +419,10 @@ class ua.com.syo.battlecity.screens.stage.Stage extends MovieClip implements AsB
 	public function onAllEnemyKilled(): Void
 	{
 		//		this.tank.disableControl();
-		Model.getInstance().fixPlayedStage(GlobalStorage.currentStageId);
+		if (!GlobalStorage.isClassicGame)
+		{
+			Model.getInstance().fixPlayedStage(GlobalStorage.currentStageId);
+		}
 		var delayAfterStage: Number = GlobalStorage.delayAfterStage;
 		var $scope: Stage = this;
 		this.onEnterFrame = function():Void 

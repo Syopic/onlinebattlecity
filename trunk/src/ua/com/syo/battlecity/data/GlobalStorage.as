@@ -10,6 +10,8 @@ class ua.com.syo.battlecity.data.GlobalStorage
 {
 	public static var isLocal: Boolean = false;
 	public static var isRandomStages: Boolean = false;
+	public static var isClassicGame: Boolean = false;
+	//	
 	public static var stagesNum: Number = 35;
 	public static var pathToStages: String = "stages/";
 	public static var pathToServer: String = "http://www.battlecity.com.ua/srv.php";
@@ -36,7 +38,50 @@ class ua.com.syo.battlecity.data.GlobalStorage
 	public static var currentStage: Number;
 	public static var lifesNum: Number;
 	public static var score: Number;
+	//	
 	public static var currentTankType: Number;
+	
+	public static function initFlashVars(): Void
+	{
+		if (Boolean(_root["isRandomStages"]))
+		{
+			isRandomStages = true;
+			pathToStages = "";
+		}
+		else
+		if (_root["stagesPath"] )
+		{
+			pathToStages = _root["stagesPath"];
+			isClassicGame = true;
+		}
+		
+		
+		if (_root["currentStage"])
+		{
+			currentStage = _root["currentStage"];
+		}
+		else if (!_root["stageId"])
+		{
+			if (isRandomStages)
+			{
+				currentStage = getRandomStage();
+			}
+			else
+			{
+				currentStage = 1;
+			}
+		}
+		
+		if (_root["stagesNum"])
+		{
+			stagesNum = _root["stagesNum"];
+		}
+		
+		if (_root["stageId"])
+		{
+			currentStageId = _root["stageId"];
+		}
+	}
 	
 	public static function initDynamicVars(): Void
 	{

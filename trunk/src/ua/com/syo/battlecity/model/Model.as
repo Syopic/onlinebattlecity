@@ -34,7 +34,7 @@ class ua.com.syo.battlecity.model.Model implements AsBroadcasterI
 	
 	public function getMapByStageNum(stage:Number): Void
 	{
-		if (GlobalStorage.isLocal)
+		if (GlobalStorage.isClassicGame)
 		{
 			this.server.loadXML(GlobalStorage.pathToStages+"stage"+stage+".xml", stage);
 		}
