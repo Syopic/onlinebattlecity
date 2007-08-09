@@ -33,35 +33,32 @@ class ua.com.syo.battlecity.data.GlobalStorage
 	public static var maxEnemyOnStage: Number = 4;
 	public static var enemychangeDirectionDelay: Number = 80;
 	//	dynamic global vars
-	public static var currentStage:Number;
-	
-	public static var lifesNum:Number;
-	
-	public static var score:Number;
-	
-	public static var currentTankType:Number;
+	public static var currentStage: Number;
+	public static var lifesNum: Number;
+	public static var score: Number;
+	public static var currentTankType: Number;
 	
 	public static function initDynamicVars(): Void
 	{
-		lifesNum=3;
-		score=0;
-		currentTankType=0;
+		lifesNum = 3;
+		score = 0;
+		currentTankType = 0;
 	}
 	
-	public static function addScore(scoreNum:Number): Void
+	public static function addScore(scoreNum: Number): Void
 	{
-		score+=scoreNum;
-		if (GlobalStorage.hiScore<GlobalStorage.score && !isLifeAdded)
+		score += scoreNum;
+		if (GlobalStorage.hiScore < GlobalStorage.score && !isLifeAdded)
 		{
 			AllSounds.getInstance().playGetLife();
 			lifesNum++;
 			UIManager.getInstance().getStageInstance().infoPanelUpdate();
-			isLifeAdded=true;
+			isLifeAdded = true;
 		}
 	}
 	
 	public static function getRandomStage(): Number
 	{
-		return (random(1000)+1);
+		return (random(1000) + 1);
 	}
 }

@@ -26,7 +26,7 @@ class ua.com.syo.battlecity.controller.GameController
 		}
 		return instance;
 	}
-	
+
 	public function init():Void
 	{
 		UIManager.getInstance().addListener(this);
@@ -98,6 +98,11 @@ class ua.com.syo.battlecity.controller.GameController
 		}
 	}
 	
+	/**
+	 * @param direction 
+	 * @param x
+	 * @return 
+	 */
 	public function putPlayerBomb(x:Number, y:Number, direction:Number, speed:Number, isFerumErase:Boolean): Void
 	{
 		UIManager.getInstance().getStageInstance().putPlayerBomb(x, y, direction, speed, isFerumErase);
