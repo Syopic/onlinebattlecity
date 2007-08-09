@@ -14,7 +14,8 @@
 		   so.addParam("allowScriptAccess", "sameDomain");
 		   so.addVariable("stagesPath", "stages/");
 		   so.addVariable("stagesNum", "35");
-		   so.addVariable("isRandomStages", "true");
+		   so.addVariable("isRandomStages", getQueryParamValue("isRandomStages"));
+		   so.addVariable("isClassicGame", getQueryParamValue("isClassicGame"));
 		   so.addVariable("currentStage", getQueryParamValue("currentStage"));
 		   so.addVariable("stageId", getQueryParamValue("id"));
 		   so.write("flashcontent");
