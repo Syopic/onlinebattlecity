@@ -21,7 +21,7 @@ class ua.com.syo.battlecityeditor.Main
 		preloader.init();
 		
 		_root.onEnterFrame = function():Void
-		{
+		{ 
 			Main.preloader.update(_root.getBytesLoaded(), _root.getBytesTotal());
 			if (_root.getBytesLoaded() == _root.getBytesTotal())
 			{
