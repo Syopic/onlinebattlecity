@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!--
+ Copyright Namco 1985 (C). All rights reserved.
+ http://www.namco.com
+ 
+ Reincarnation in Flash by Krivosheya Sergey
+ http://www.syo.com.ua
+-->
+
+<project name="Battle City" default="flash.game.compile" basedir=".">
+	
+	<!-- Import properties from file -->
+	<property name="dir.properties" value="${basedir}/properties" />
+	<property file="${dir.properties}/project.properties" />
+	
+	<!-- Build dir -->
+	<property name="out.dir" value="${basedir}/out" />
+	<property name="as.swffile" value="${out.dir}/battlecity.swf" />
+	<property name="as.editorswffile" value="${out.dir}/editor/editor.swf" />
+	
+	<!-- Source dir and path to mainclass -->
+	<property name="src.dir" value="${basedir}/src" />
+	<property name="as.mainclass" value="ua/com/syo/battlecity/Main.as" />
+	<property name="as.editormainclass" value="ua/com/syo/battlecityeditor/Main.as" />
+	
+	<!-- Resourse dir and library -->
+	<property name="res.dir" value="${basedir}/res" />
+	<property name="swfmill.xml" value="swfmill.xml" />
+	<property name="swfmill.xml.dir" value="${res.dir}" />
+	
+	<!-- Init build  -->
+	<target name="init">
+		<mkdir dir="${out.dir}" />
+		<mkdir dir="${out.dir}/stages" />
+		<copy file="${res.dir}/index.html" todir="${out.dir}"/>
+		<copy file="${res.dir}/swfobject.js" todir="${out.dir}"/>
+		<copy file="${res.dir}/library.swf" todir="${out.dir}"/>
+		<copy todir="${out.dir}/stages" >
+			<fileset dir="${res.dir}/stages"/>
+		</copy>
+	</target>
+	
+	<!-- initForEditor build  -->
+		<target name="initForEditor">
+			<mkdir dir="${out.dir}" />
+			<mkdir dir="${out.dir}/editor" />
+			<copy file="${res.dir}/editor.html" todir="${out.dir}/editor"/>
+			<copy file="${res.dir}/swfobject.js" todir="${out.dir}/editor"/>
+		</target>
+	
+	<!-- Compile game flash -->
+	<target name="flash.game.compile" depends="init">
+		
+		<!-- Import the libraries using swfmill -->
+		<exec dir="${swfmill.xml.dir}" executable="${swfmill.exe.path}" failonerror="true">
+			<arg line=" -q simple ${swfmill.xml} ${as.swffile}" />
+		</exec>
+		
+		<!-- Compile the Actionscript code -->
+		<exec dir="${src.dir}" executable="${mtasc.dir}/${mtasc.exe}" failonerror="true">
+			<arg line="
+				-v -keep 
+				-swf ${as.swffile}
+                -main ${as.mainclass}
+				-cp ${mtasc.dir}/std"
+			/>
+		</exec>
+	</target>
+	
+	<!-- Compile editor flash -->
+	<target name="flash.editor.compile" depends="initForEditor">
+		<!-- Compile the Actionscript code -->
+		<exec dir="${src.dir}" executable="${mtasc.dir}/${mtasc.exe}" failonerror="true">
+			<arg line="
+				-v -keep 
+				-swf ${res.dir}/editorLibrary.swf
+                -main ${as.editormainclass}
+				-version 8
+				-out ${as.editorswffile}"
+			/>
+		</exec>
+	</target>
+	
+</project>
