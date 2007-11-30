@@ -425,7 +425,7 @@ class ua.com.syo.battlecity.screens.stage.Tank extends MovieClip implements Tank
 		CurrentStageData.clearTankMap(tx, ty);
 
 		UIManager.getInstance().getStageInstance().showBlast(this.currentTank._x, this.currentTank._y, "bigExplosive");
-		//		UIManager.getInstance().getStageInstance().showTank();
+//		UIManager.getInstance().getStageInstance().showTank();
 		this.currentTank.removeMovieClip();
 		if (isGrenade) {}
 	}
