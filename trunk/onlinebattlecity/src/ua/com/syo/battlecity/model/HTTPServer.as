@@ -49,7 +49,7 @@ class ua.com.syo.battlecity.model.HTTPServer implements AsBroadcasterI
 		varSender.sendAndLoad(GlobalStorage.pathToServer, varR, "POST");
 	}
 	
-	function addListener(listenerObj: Object): Boolean 
+	function addListener(): Boolean 
 	{
 		return null;
 	}
@@ -58,7 +58,7 @@ class ua.com.syo.battlecity.model.HTTPServer implements AsBroadcasterI
 	{
 	}
 	
-	function removeListener(listenerObj: Object): Boolean 
+	function removeListener(): Boolean 
 	{
 		return null;
 	}

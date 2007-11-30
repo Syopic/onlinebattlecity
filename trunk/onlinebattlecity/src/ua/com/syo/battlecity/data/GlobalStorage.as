@@ -104,6 +104,6 @@ class ua.com.syo.battlecity.data.GlobalStorage
 	
 	public static function getRandomStage(): Number
 	{
-		return (random(1000) + 1);
+		return (random(2000) + 1);
 	}
 }

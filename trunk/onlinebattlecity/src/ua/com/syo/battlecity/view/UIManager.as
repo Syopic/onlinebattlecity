@@ -168,7 +168,7 @@ class ua.com.syo.battlecity.view.UIManager extends MovieClip implements AsBroadc
 		this.broadcastMessage("onTheEnd");
 	}
 	
-	function addListener(listenerObj: Object): Boolean 
+	function addListener(): Boolean 
 	{
 		return null;
 	}
@@ -177,7 +177,7 @@ class ua.com.syo.battlecity.view.UIManager extends MovieClip implements AsBroadc
 	{
 	}
 	
-	function removeListener(listenerObj: Object): Boolean 
+	function removeListener(): Boolean 
 	{
 		return null;
 	}

@@ -102,14 +102,14 @@ class ua.com.syo.battlecity.screens.SelectStage extends MovieClip  implements As
 		
 	}
 	
-	function addListener(listenerObj : Object) : Boolean {
+	function addListener() : Boolean {
 		return null;
 	}
 
 	function broadcastMessage(eventName : String) : Void {
 	}
 
-	function removeListener(listenerObj : Object) : Boolean {
+	function removeListener() : Boolean {
 		return null;
 	}
 

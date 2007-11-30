@@ -6,7 +6,7 @@
  */
 interface ua.com.syo.battlecity.common.AsBroadcasterI 
 {
-	function addListener(listenerObj:Object):Boolean;
+	function addListener():Boolean;
 	function broadcastMessage(eventName:String):Void;
-	function removeListener(listenerObj:Object):Boolean;
+	function removeListener():Boolean;
 }
