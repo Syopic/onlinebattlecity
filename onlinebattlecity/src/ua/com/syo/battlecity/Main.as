@@ -43,7 +43,7 @@ class ua.com.syo.battlecity.Main
 	public static function initApp(): Void 
 	{
 		var d: Date = new Date();
-		if (d.getFullYear() < 2008)
+		if (d.getFullYear() < 2009)
 		{
 			// Remove preloader
 			Main.preloader.remove();

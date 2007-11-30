@@ -4,44 +4,44 @@ import ua.com.syo.battlecity.components.NESTextField;
 import ua.com.syo.battlecity.data.DataLabels;
 import ua.com.syo.battlecity.data.GlobalStorage;
 import ua.com.syo.battlecity.sound.AllSounds;
+
 /**
  * @author Krivosheya Sergey
  * @link www: http://syo.com.ua
  * email: syopic@gmail.com
  * 15 ��� 2007
  */
-class ua.com.syo.battlecity.screens.TotalScreen extends MovieClip implements AsBroadcasterI
-{
-	private var canvas_mc: MovieClip;
-	private var hiScore_num: NESNumField;
-	private var hiScore_tf: NESTextField;
-	private var stage_tf: NESTextField;
-	private var stage_num: NESNumField;
-	private var firstPlayer_tf: NESTextField;
-	private var score_num: NESNumField;
-	private var total_tf: NESTextField;
-	private var total_num: NESNumField;
-	private var whiteLine: MovieClip;
-	private var rows_array: Array = new Array();
-	private var showTotalIntervalId: Number;
-	private var currenrRowForShow: Number;
-	private var scores_array: Array;
-	private var scoresIncr_array: Array;
-	private var multipleScores_array: Array = new Array(100, 200, 300, 400);
-	private var sum: Number;
-	private var pointSum: Number;
-	private var closerTop: MovieClip;
-	private var closerBottom: MovieClip;
-		public static function create(clip: MovieClip,name: String,depth: Number,initObject: Object): TotalScreen
-	{
+class ua.com.syo.battlecity.screens.TotalScreen extends MovieClip implements AsBroadcasterI {
+	private var canvas_mc : MovieClip;
+	private var hiScore_num : NESNumField;
+	private var hiScore_tf : NESTextField;
+	private var stage_tf : NESTextField;
+	private var stage_num : NESNumField;
+	private var firstPlayer_tf : NESTextField;
+	private var score_num : NESNumField;
+	private var total_tf : NESTextField;
+	private var total_num : NESNumField;
+	private var whiteLine : MovieClip;
+	private var rows_array : Array = new Array();
+	private var showTotalIntervalId : Number;
+	private var currenrRowForShow : Number;
+	private var scores_array : Array;
+	private var scoresIncr_array : Array;
+	private var multipleScores_array : Array = new Array(100, 200, 300, 400);
+	private var sum : Number;
+	private var pointSum : Number;
+	private var closerTop : MovieClip;
+	private var closerBottom : MovieClip;
+
+	public static function create(clip : MovieClip,name : String,depth : Number,initObject : Object) : TotalScreen {
 		registerClass("__Packages.ua.com.syo.battlecity.screens.TotalScreen", TotalScreen);
-		var instance: MovieClip = clip.attachMovie("__Packages.ua.com.syo.battlecity.screens.TotalScreen", name, depth, initObject);
-		var classInstance: TotalScreen = TotalScreen(instance);
+		var instance : MovieClip = clip.attachMovie("__Packages.ua.com.syo.battlecity.screens.TotalScreen", name, depth, initObject);
+		var classInstance : TotalScreen = TotalScreen(instance);
 		classInstance.buildInstance();
 		return classInstance;
 	}
-		public function buildInstance(): Void
-	{
+
+	public function buildInstance() : Void {
 		this.attachMovie("rectangle", "rectangle", this.getNextHighestDepth());
 		this.canvas_mc = createEmptyMovieClip("canvas_mc", this.getNextHighestDepth());
 		
@@ -65,9 +65,9 @@ class ua.com.syo.battlecity.screens.TotalScreen extends MovieClip implements AsB
 		this.closerTop._y = -121;
 		this.closerBottom._y = 233;
 	}
-		public function init(scores: Array, isGO: Boolean): Void
-	{
-		var i: Number;
+
+	public function init(scores : Array, isGO : Boolean) : Void {
+		var i : Number;
 		//		
 		this.scores_array = scores;
 		this.rows_array = new Array();
@@ -77,8 +77,7 @@ class ua.com.syo.battlecity.screens.TotalScreen extends MovieClip implements AsB
 		
 		this.scoresIncr_array = new Array(0, 0, 0, 0);
 		
-		for ( i = 0;i < this.scores_array.length; i++)
-		{
+		for ( i = 0;i < this.scores_array.length; i++) {
 			this.sum += this.scores_array[i];
 			this.pointSum += this.scores_array[i] * this.multipleScores_array[i];
 		}
@@ -109,31 +108,31 @@ class ua.com.syo.battlecity.screens.TotalScreen extends MovieClip implements AsB
 		this.whiteLine._x = 96;
 		this.whiteLine._y = 173;
 		
-		var c: Color = new Color(this.whiteLine);
+		var c : Color = new Color(this.whiteLine);
 		c.setRGB(0xFFFFFF);
 		
 		
-		for (i = 0;i < 4; i++)
-		{
+		for (i = 0;i < 4; i++) {
 			this.createTotalRow(i + 1);
 		}
 		
 		showTotalEnable();
 		
-		if (isGO)
-		{
-			var c1: Color = new Color(this.closerTop);
+		if (isGO) {
+			var c1 : Color = new Color(this.closerTop);
 			c1.setRGB(0x000000);
-			var c2: Color = new Color(this.closerBottom);
+			var c2 : Color = new Color(this.closerBottom);
 			c2.setRGB(0x000000);
 		}
 	}
-		public function createTotalRow(rowIndex: Number): Void
-	{
-		var row: MovieClip = this.canvas_mc.createEmptyMovieClip("row" + rowIndex, this.canvas_mc.getNextHighestDepth());
-		var score_num: NESNumField = NESNumField.create(row, "score_num", row.getNextHighestDepth());
-		var pts_tf: NESTextField = NESTextField.create(row, "pts_tf", row.getNextHighestDepth());		;
-		var kill_num: NESNumField = NESNumField.create(row, "kill_num", row.getNextHighestDepth());		;
+
+	public function createTotalRow(rowIndex : Number) : Void {
+		var row : MovieClip = this.canvas_mc.createEmptyMovieClip("row" + rowIndex, this.canvas_mc.getNextHighestDepth());
+		var score_num : NESNumField = NESNumField.create(row, "score_num", row.getNextHighestDepth());
+		var pts_tf : NESTextField = NESTextField.create(row, "pts_tf", row.getNextHighestDepth());
+		;
+		var kill_num : NESNumField = NESNumField.create(row, "kill_num", row.getNextHighestDepth());
+		;
 		
 		score_num.init(0, 0, 4, "right", 0xFFFFFF);
 		
@@ -153,45 +152,39 @@ class ua.com.syo.battlecity.screens.TotalScreen extends MovieClip implements AsB
 		
 		this.rows_array.push(row);
 	}
-		public function setRowData(rowIndex: Number, num: Number, multiplier: Number): Void
-	{
+
+	public function setRowData(rowIndex : Number, num : Number, multiplier : Number) : Void {
 		AllSounds.getInstance().playTotal();
 		NESNumField(MovieClip(this.rows_array[rowIndex])["kill_num"])._visible = true;
 		NESNumField(MovieClip(this.rows_array[rowIndex])["kill_num"]).setValue((num).toString());
 		NESNumField(MovieClip(this.rows_array[rowIndex])["score_num"])._visible = true;
 		NESNumField(MovieClip(this.rows_array[rowIndex])["score_num"]).setValue((num * multiplier).toString());
 	}
-		public function showTotalEnable(): Void
-	{
-		if(this.showTotalIntervalId != null) 
-		{
+
+	public function showTotalEnable() : Void {
+		if(this.showTotalIntervalId != null) {
 			clearInterval(this.showTotalIntervalId);
 		}
 		this.showTotalIntervalId = setInterval(this, "showRows", GlobalStorage.totalShowDelay);
 	}
-		private function showRows(): Void
-	{
-		var left: Number = this.scores_array[this.currenrRowForShow];
+
+	private function showRows() : Void {
+		var left : Number = this.scores_array[this.currenrRowForShow];
 		
-		var value: Number = 0;
-		if (left > -1)
-		{
+		var value : Number = 0;
+		if (left > -1) {
 			this.scores_array[this.currenrRowForShow]--;
 			value = this.scoresIncr_array[this.currenrRowForShow]++;
-			if (value > 0 || (this.currenrRowForShow == 0 && this.scores_array[this.currenrRowForShow] < 0))
-			{
+			if (value > 0 || (this.currenrRowForShow == 0 && this.scores_array[this.currenrRowForShow] < 0)) {
 				this.setRowData(this.currenrRowForShow, value, this.multipleScores_array[this.currenrRowForShow]);
 			}
 		}
-		else
-		{
+		else {
 			this.currenrRowForShow++;
-			if (this.scores_array[this.currenrRowForShow] == 0)
-			{
+			if (this.scores_array[this.currenrRowForShow] == 0) {
 				this.setRowData(this.currenrRowForShow, 0, this.multipleScores_array[this.currenrRowForShow]);
 			}
-			if (this.currenrRowForShow > 4)
-			{
+			if (this.currenrRowForShow > 4) {
 				Key.addListener(this);
 				this.runDelay();
 				clearInterval(this.showTotalIntervalId);
@@ -200,8 +193,8 @@ class ua.com.syo.battlecity.screens.TotalScreen extends MovieClip implements AsB
 			}
 		}
 	}
-		public function onKeyDown(): Void
-	{
+
+	public function onKeyDown() : Void {
 //		if(Key.isDown(Key.SPACE))
 //		{
 //			Key.removeListener(this);
@@ -209,47 +202,49 @@ class ua.com.syo.battlecity.screens.TotalScreen extends MovieClip implements AsB
 //			
 //		}
 	}	
-		private function runDelay(): Void 
-	{
-		var delay: Number = 100;
-		var $scope: TotalScreen = this;
-		this.onEnterFrame = function() :Void		{
+
+	private function runDelay() : Void {
+		var delay : Number = 100;
+		var $scope : TotalScreen = this;
+		this.onEnterFrame = function() :Void {
 			delay--;
-			if (delay < 0)
-			{
+			if (delay < 0) {
 				$scope.closeTotal();
 				delete $scope.onEnterFrame;
 			}
 		};	
 	}
-		public function closeTotal(): Void
-	{
-		var $scope: TotalScreen = this;
-		this.canvas_mc.onEnterFrame = function():Void 		{
-			if ($scope.closerTop._y < -2) 			{ 
+
+	public function closeTotal() : Void {
+		var $scope : TotalScreen = this;
+		this.canvas_mc.onEnterFrame = function():Void {
+			if ($scope.closerTop._y < -2) { 
 				$scope.closerTop._y += 5;
 				$scope.closerBottom._y -= 5;
-			} else 			{
+			} else {
 				$scope.onClose();
 				delete $scope.canvas_mc.onEnterFrame;
 			}
 		};
 	}
-		private function onClose(): Void
-	{
+
+	private function onClose() : Void {
 		Key.addListener(this);
 		this.broadcastMessage("onCloseTotalScreen");
 	}
-		public function destroy(): Void
-	{
+
+	public function destroy() : Void {
 		this.removeMovieClip();
 	}
-		function addListener(listenerObj: Object): Boolean 	{
+
+	function addListener() : Boolean {
 		return null;
 	}
-		function broadcastMessage(eventName: String): Void 	{
+
+	function broadcastMessage(eventName : String) : Void {
 	}
-		function removeListener(listenerObj: Object): Boolean 	{
+
+	function removeListener() : Boolean {
 		return null;
 	}
 }

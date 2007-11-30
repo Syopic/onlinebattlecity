@@ -9,74 +9,73 @@ import ua.com.syo.battlecity.data.DataLabels;
 import ua.com.syo.battlecity.components.NESNumField;
 import ua.com.syo.battlecity.common.AsBroadcasterI;
 import ua.com.syo.battlecity.data.GlobalStorage;
- /**
-  * View splash menu with title
-  */
-class ua.com.syo.battlecity.screens.SplashMenu extends MovieClip implements AsBroadcasterI 
-{
-	
-	private var canvas_mc:MovieClip;
-	private var hiScore:NESNumField;
-	private var onePlHiScore:NESNumField;
-	private var onePl_tf:NESTextField;
-	private var onePlHi_tf:NESTextField;
-	private var onePlayer_tf:NESTextField;
-	private var twoPlayer_tf:NESTextField;
-	private var construction_tf:NESTextField;
-	private var namcoCopy_tf:NESTextField;
-	private var allRight_tf:NESTextField;
-	private var syoCopy_tf:NESTextField;
-	
-	private var version_tf:NESTextField;
-	
-	private var bulletTank:MovieClip;
-	
-	private var closerTop:MovieClip;
-	private var closerBottom:MovieClip;
-	
-	public static function create(clip:MovieClip,name:String,depth:Number,initObject:Object):SplashMenu
-	{
-		registerClass("__Packages.ua.com.syo.battlecity.screens.SplashMenu",SplashMenu);
-		var instance:MovieClip=clip.attachMovie("__Packages.ua.com.syo.battlecity.screens.SplashMenu",name,depth,initObject);
-		var classInstance:SplashMenu=SplashMenu(instance);
+
+/**
+ * View splash menu with title
+ */
+class ua.com.syo.battlecity.screens.SplashMenu extends MovieClip implements AsBroadcasterI {
+
+	private var canvas_mc : MovieClip;
+	private var hiScore : NESNumField;
+	private var onePlHiScore : NESNumField;
+	private var onePl_tf : NESTextField;
+	private var onePlHi_tf : NESTextField;
+	private var onePlayer_tf : NESTextField;
+	private var twoPlayer_tf : NESTextField;
+	private var construction_tf : NESTextField;
+	private var namcoCopy_tf : NESTextField;
+	private var allRight_tf : NESTextField;
+	private var syoCopy_tf : NESTextField;
+
+	private var version_tf : NESTextField;
+
+	private var bulletTank : MovieClip;
+
+	private var closerTop : MovieClip;
+	private var closerBottom : MovieClip;
+
+	public static function create(clip : MovieClip,name : String,depth : Number,initObject : Object) : SplashMenu {
+		registerClass("__Packages.ua.com.syo.battlecity.screens.SplashMenu", SplashMenu);
+		var instance : MovieClip = clip.attachMovie("__Packages.ua.com.syo.battlecity.screens.SplashMenu", name, depth, initObject);
+		var classInstance : SplashMenu = SplashMenu(instance);
 		SplashMenu(instance).buildInstance();
 		return classInstance;
 	}
-	public function buildInstance():Void
-	{
+
+	public function buildInstance() : Void {
 		
 		this.attachMovie("rectangle", "rectangle", this.getNextHighestDepth());
 		
-		this.canvas_mc=createEmptyMovieClip("canvas_mc", this.getNextHighestDepth());
+		this.canvas_mc = createEmptyMovieClip("canvas_mc", this.getNextHighestDepth());
 		
-		this.bulletTank=this.attachMovie("bulletTank", "bulletTank", this.getNextHighestDepth());
-		this.bulletTank._visible=false;
-		this.bulletTank._x=63;
-		this.bulletTank._y=123;
+		this.bulletTank = this.attachMovie("bulletTank", "bulletTank", this.getNextHighestDepth());
+		this.bulletTank._visible = false;
+		this.bulletTank._x = 63;
+		this.bulletTank._y = 123;
 		
-		this.closerTop=this.attachMovie("closer", "closerTop", this.getNextHighestDepth());
-		this.closerBottom=this.attachMovie("closer", "closerBottom", this.getNextHighestDepth());
-		this.closerTop._y=-121;
-		this.closerBottom._y=233;
+		this.closerTop = this.attachMovie("closer", "closerTop", this.getNextHighestDepth());
+		this.closerBottom = this.attachMovie("closer", "closerBottom", this.getNextHighestDepth());
+		this.closerTop._y = -121;
+		this.closerBottom._y = 233;
 		
 		this.canvas_mc.attachMovie("gameTitle", "gameTitle", this.canvas_mc.getNextHighestDepth(), {_x:28, _y:40});
 		
-		this.hiScore=NESNumField.create(this.canvas_mc, "hiScore", this.canvas_mc.getNextHighestDepth());
-		this.onePlHiScore=NESNumField.create(this.canvas_mc, "onePlHiScore", this.canvas_mc.getNextHighestDepth());
+		this.hiScore = NESNumField.create(this.canvas_mc, "hiScore", this.canvas_mc.getNextHighestDepth());
+		this.onePlHiScore = NESNumField.create(this.canvas_mc, "onePlHiScore", this.canvas_mc.getNextHighestDepth());
 		
-		this.onePl_tf=NESTextField.create(this.canvas_mc, "onePl_tf", this.canvas_mc.getNextHighestDepth());
-		this.onePlHi_tf=NESTextField.create(this.canvas_mc, "onePlHi_tf", this.canvas_mc.getNextHighestDepth());
-		this.onePlayer_tf=NESTextField.create(this.canvas_mc, "onePlayer_tf", this.canvas_mc.getNextHighestDepth());
-		this.twoPlayer_tf=NESTextField.create(this.canvas_mc, "twoPlayer_tf", this.canvas_mc.getNextHighestDepth());
-		this.construction_tf=NESTextField.create(this.canvas_mc, "construction_tf", this.canvas_mc.getNextHighestDepth());
-		this.namcoCopy_tf=NESTextField.create(this.canvas_mc, "namcoCopy_tf", this.canvas_mc.getNextHighestDepth());
-		this.allRight_tf=NESTextField.create(this.canvas_mc, "allRight_tf", this.canvas_mc.getNextHighestDepth());
-		this.syoCopy_tf=NESTextField.create(this.canvas_mc, "syoCopy_tf", this.canvas_mc.getNextHighestDepth());
+		this.onePl_tf = NESTextField.create(this.canvas_mc, "onePl_tf", this.canvas_mc.getNextHighestDepth());
+		this.onePlHi_tf = NESTextField.create(this.canvas_mc, "onePlHi_tf", this.canvas_mc.getNextHighestDepth());
+		this.onePlayer_tf = NESTextField.create(this.canvas_mc, "onePlayer_tf", this.canvas_mc.getNextHighestDepth());
+		this.twoPlayer_tf = NESTextField.create(this.canvas_mc, "twoPlayer_tf", this.canvas_mc.getNextHighestDepth());
+		this.construction_tf = NESTextField.create(this.canvas_mc, "construction_tf", this.canvas_mc.getNextHighestDepth());
+		this.namcoCopy_tf = NESTextField.create(this.canvas_mc, "namcoCopy_tf", this.canvas_mc.getNextHighestDepth());
+		this.allRight_tf = NESTextField.create(this.canvas_mc, "allRight_tf", this.canvas_mc.getNextHighestDepth());
+		this.syoCopy_tf = NESTextField.create(this.canvas_mc, "syoCopy_tf", this.canvas_mc.getNextHighestDepth());
 		
-		this.version_tf=NESTextField.create(this.canvas_mc, "version_tf", this.canvas_mc.getNextHighestDepth());
+		this.version_tf = NESTextField.create(this.canvas_mc, "version_tf", this.canvas_mc.getNextHighestDepth());
 	}
-	public function init(): Void 
-	{
+
+	public function init() : Void {
 		AsBroadcaster.initialize(this);
 		
 		this.onePl_tf.init(17, 16, DataLabels.SPLASH_ONE_PL, 0xFFFFFF);
@@ -96,26 +95,24 @@ class ua.com.syo.battlecity.screens.SplashMenu extends MovieClip implements AsBr
 		this.onePlHiScore.init(33, 16, 6, "right", 0xFFFFFF);
 		this.onePlHiScore.setValue(GlobalStorage.plOneHiScore.toString());
 		
-		this.canvas_mc._y=232;
+		this.canvas_mc._y = 232;
 		
 		this.moveUp();
 
 		Key.addListener(this);
 		
-		this.syoCopy_tf.onPress=function(): Void
-		{
+		this.syoCopy_tf.onPress = function(): Void {
 			getURL("http://syo.com.ua", "_blank");
 		};
-
 	}
+
 	/**
 	 *  Move up splash menu
 	 */
-	private function moveUp(): Void 
-	{
-		var $scope:SplashMenu=this;
-		this.onEnterFrame=function():Void {
-			if ($scope.canvas_mc._y>0) { 
+	private function moveUp() : Void {
+		var $scope : SplashMenu = this;
+		this.onEnterFrame = function():Void {
+			if ($scope.canvas_mc._y > 0) { 
 				$scope.canvas_mc._y--;
 			} else {
 				$scope.showSelector();
@@ -123,63 +120,55 @@ class ua.com.syo.battlecity.screens.SplashMenu extends MovieClip implements AsBr
 			}
 		};		
 	}
-	
-	public function onKeyDown():Void
-	{
-//		TODO add select other item of menu
-		if(Key.isDown(Key.SPACE))
-		{
-			if (canvas_mc._y==0)
-			{
+
+	public function onKeyDown() : Void {
+		//		TODO add select other item of menu
+		if(Key.isDown(Key.SPACE)) {
+			if (canvas_mc._y == 0) {
 				this.closeSplash();
 				Key.removeListener(this);
 			}
-			else
-			{
+			else {
 				this.showSelector();
 			}
 		}
 	}	
-	
-	private  function showSelector(): Void {
-		this.bulletTank._visible=true;
-		canvas_mc._y=0;
+
+	private  function showSelector() : Void {
+		this.bulletTank._visible = true;
+		canvas_mc._y = 0;
 	} 
-	
-	private function closeSplash(): Void
-	{
-		var $scope:SplashMenu=this;
-		this.onEnterFrame=function():Void {
-			if ($scope.closerTop._y<-2) { 
-				$scope.closerTop._y+=5;
-				$scope.closerBottom._y-=5;
+
+	private function closeSplash() : Void {
+		var $scope : SplashMenu = this;
+		this.onEnterFrame = function():Void {
+			if ($scope.closerTop._y < -2) { 
+				$scope.closerTop._y += 5;
+				$scope.closerBottom._y -= 5;
 			} else {
 				$scope.onClose();
 				delete $scope.onEnterFrame;
 			}
 		};
 	}
-	
-	private function onClose(): Void
-	{
+
+	private function onClose() : Void {
 		this.broadcastMessage("onClose");
 	}
-	
-	public function destroy(): Void
-	{
+
+	public function destroy() : Void {
 		this.removeMovieClip();
 	}	
+
 	
-	
-	function addListener(listenerObj : Object) : Boolean {
+	function addListener() : Boolean {
 		return null;
 	}
 
 	function broadcastMessage(eventName : String) : Void {
 	}
 
-	function removeListener(listenerObj : Object) : Boolean {
+	function removeListener() : Boolean {
 		return null;
 	}
-
 }

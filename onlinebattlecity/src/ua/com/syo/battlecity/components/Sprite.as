@@ -37,7 +37,6 @@ class ua.com.syo.battlecity.components.Sprite extends MovieClip
 	public function nextErase(direction:Number): Boolean
 	{
 		var isDestroy:Boolean=false;
-		var toFrame:Number=1;
 		
 		if (this.type=="brick")
 		{

@@ -3,32 +3,30 @@ import ua.com.syo.battlecity.components.NESTextField;
 import ua.com.syo.battlecity.data.GlobalStorage;
 import ua.com.syo.battlecity.components.NESNumField;
 import ua.com.syo.battlecity.sound.AllSounds;
+
 /**
  * @author Krivosheya Sergey
  * @link www: http://syo.com.ua
  * email: syopic@gmail.com
  * 16 ��� 2007
  */
-class ua.com.syo.battlecity.screens.GameOverScreen extends MovieClip implements AsBroadcasterI
-{
-	private var canvas_mc: MovieClip;
-	private var bricks_mc: MovieClip;
-	private var goText1: NESTextField;
-	private var goText2: NESTextField;
-	private var hiScore: NESTextField;
-	private var hiScore_num: NESNumField;
-	
-	public static function create(clip: MovieClip,name: String,depth: Number,initObject: Object): GameOverScreen
-	{
+class ua.com.syo.battlecity.screens.GameOverScreen extends MovieClip implements AsBroadcasterI {
+	private var canvas_mc : MovieClip;
+	private var bricks_mc : MovieClip;
+	private var goText1 : NESTextField;
+	private var goText2 : NESTextField;
+	private var hiScore : NESTextField;
+	private var hiScore_num : NESNumField;
+
+	public static function create(clip : MovieClip,name : String,depth : Number,initObject : Object) : GameOverScreen {
 		registerClass("__Packages.ua.com.syo.battlecity.screens.GameOverScreen", GameOverScreen);
-		var instance: MovieClip = clip.attachMovie("__Packages.ua.com.syo.battlecity.screens.GameOverScreen", name, depth, initObject);
-		var classInstance: GameOverScreen = GameOverScreen(instance);
+		var instance : MovieClip = clip.attachMovie("__Packages.ua.com.syo.battlecity.screens.GameOverScreen", name, depth, initObject);
+		var classInstance : GameOverScreen = GameOverScreen(instance);
 		classInstance.buildInstance();
 		return classInstance;
 	}
-	
-	public function buildInstance(): Void
-	{
+
+	public function buildInstance() : Void {
 		this.attachMovie("rectangle", "rectangle", this.getNextHighestDepth());
 		this.bricks_mc = this.createEmptyMovieClip("bricks", this.getNextHighestDepth());
 		this.canvas_mc = this.createEmptyMovieClip("canvas", this.getNextHighestDepth());
@@ -38,15 +36,12 @@ class ua.com.syo.battlecity.screens.GameOverScreen extends MovieClip implements 
 		this.hiScore = NESTextField.create(this.canvas_mc, "hiScore", this.canvas_mc.getNextHighestDepth());
 		this.hiScore_num = NESNumField.create(this.canvas_mc, "hiScore_num", this.canvas_mc.getNextHighestDepth());
 	}
-	
-	public function init(): Void
-	{
+
+	public function init() : Void {
 		AsBroadcaster.initialize(this);
 		
-		for (var i: Number = 0;i < 32; i++)
-		{
-			for (var j: Number = 0;j < 32; j++)
-			{
+		for (var i : Number = 0;i < 32; i++) {
+			for (var j : Number = 0;j < 32; j++) {
 				this.bricks_mc.attachMovie("brick", "b" + i * 100 + j, this.bricks_mc.getNextHighestDepth(), {_x:i * 8, _y:j * 8});
 			}
 		}
@@ -68,30 +63,24 @@ class ua.com.syo.battlecity.screens.GameOverScreen extends MovieClip implements 
 		
 		AllSounds.getInstance().playGameover();
 	}
-	
-	private function runDelay(): Void 
-	{
-		var delay: Number = 100;
-		var $scope: GameOverScreen = this;
-		this.onEnterFrame = function():Void 
-		{
+
+	private function runDelay() : Void {
+		var delay : Number = 100;
+		var $scope : GameOverScreen = this;
+		this.onEnterFrame = function():Void {
 			delay--;
-			if (delay < 0)
-			{
-				if (GlobalStorage.hiScore < GlobalStorage.score)
-				{
+			if (delay < 0) {
+				if (GlobalStorage.hiScore < GlobalStorage.score) {
 					$scope.showHiScore();
 				}
-				else
-				{
+				else {
 					$scope.close();
 				}
 			}
 		};	
 	}
-	
-	private function showHiScore(): Void
-	{
+
+	private function showHiScore() : Void {
 		this.goText1.removeMovieClip();
 		this.goText2.removeMovieClip();
 		
@@ -110,30 +99,26 @@ class ua.com.syo.battlecity.screens.GameOverScreen extends MovieClip implements 
 		
 		AllSounds.getInstance().playHi();
 		
-		var delay: Number = 350;
-		var inDelay: Number = 4;
-		var $scope: GameOverScreen = this;
-		this.onEnterFrame = function():Void 
-		{
-			var my_color: Color;
-			var myColorTransform: Object;
+		var delay : Number = 350;
+		var inDelay : Number = 4;
+		var $scope : GameOverScreen = this;
+		this.onEnterFrame = function():Void {
+			var my_color : Color;
+			var myColorTransform : Object;
 			//
 			delay--;
 			inDelay--;
-			if (delay < 0)
-			{
+			if (delay < 0) {
 				$scope.close();
 			}
 			else
-			if (inDelay == 2)
-			{
+			if (inDelay == 2) {
 				my_color = new Color($scope.bricks_mc);
 				myColorTransform = { ra: 100, rb: -33, ga: 100, gb: 32, ba: 100, bb: 143, aa: 100, ab: 0};
 				my_color.setTransform(myColorTransform);
 			}
 			else
-			if (inDelay <= 0)
-			{
+			if (inDelay <= 0) {
 				my_color = new Color($scope.bricks_mc);
 				myColorTransform = { ra: 100, rb: -65, ga: 100, gb: 13, ba: 100, bb: 27, aa: 100, ab: 0};
 				my_color.setTransform(myColorTransform);
@@ -141,28 +126,23 @@ class ua.com.syo.battlecity.screens.GameOverScreen extends MovieClip implements 
 			}
 		};	
 	}
-	
-	private function close(): Void 
-	{
+
+	private function close() : Void {
 		this.broadcastMessage("onCloseGameOverScreen");
 	}
-	
-	public function destroy(): Void
-	{
+
+	public function destroy() : Void {
 		this.removeMovieClip();
 	}
-	
-	function addListener(listenerObj: Object): Boolean 
-	{
+
+	function addListener() : Boolean {
 		return null;
 	}
-	
-	function broadcastMessage(eventName: String): Void 
-	{
+
+	function broadcastMessage(eventName : String) : Void {
 	}
-	
-	function removeListener(listenerObj: Object): Boolean 
-	{
+
+	function removeListener() : Boolean {
 		return null;
 	}
 }
