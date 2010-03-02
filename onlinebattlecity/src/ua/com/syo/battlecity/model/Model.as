@@ -34,7 +34,7 @@ class ua.com.syo.battlecity.model.Model implements AsBroadcasterI {
 			this.server.loadXML(GlobalStorage.pathToStages + "stage" + stage + ".xml", stage);
 		}
 		else {
-			this.server.loadXML(GlobalStorage.pathToServer + "?_ax=battlecity:top&n=" + stage);
+			this.server.loadXML(GlobalStorage.pathToServer + "?_ax=battlecity:top&n=" + stage, stage);
 		}
 	}
 

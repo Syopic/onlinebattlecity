@@ -51,11 +51,49 @@ class ua.com.syo.battlecity.controller.Controller
 			this.onIdStage(GlobalStorage.currentStageId);
 		}
 		else
-		{
-			UIManager.getInstance().showSplashMenu();
+		{	
+			if (GlobalStorage.isMochiAds) {
+				__com_mochibot__("92a9f207", _root, 10301, true);
+				UIManager.getInstance().showMochiAds();
+				// MochiBot.com -- Version 8
+
+			} else {
+				UIManager.getInstance().showSplashMenu();
+			}
 		}
 	}
 	
+	// Tested with with Flash 5-8, ActionScript 1 and 2
+	private function __com_mochibot__(swfid, mc, lv, trk) {
+		var x,g,s,fv,sb,u,res,mb,mbc,pv; 
+		mb = '__mochibot__'; 
+		mbc = "mochibot.com"; 
+		g = _global ? _global : _level0._root; 
+		if (g[mb + swfid]) return g[mb + swfid]; 
+		s = System.security; 
+		x = mc._root['getSWFVersion']; 
+		fv = x ? mc.getSWFVersion() : (_global ? 6 : 5); 
+		if (!s) s = {}; 
+		sb = s['sandboxType']; 
+		if (sb == "localWithFile") return null; 
+		x = s['allowDomain']; 
+		if (x) s.allowDomain(mbc); 
+		x = s['allowInsecureDomain']; 
+		if (x) s.allowInsecureDomain(mbc); 
+		pv = (fv == 5) ? getVersion() : System.capabilities.version; 
+		u = "http://" + mbc + "/my/core.swf?mv=8&fv=" + fv + "&v=" + escape(pv) + "&swfid=" + escape(swfid) + "&l=" + lv + "&f=" + mc + (sb ? "&sb=" + sb : "") + (trk ? "&t=1" : ""); 
+		lv = (fv > 6) ? mc.getNextHighestDepth() : g[mb + "level"] ? g[mb + "level"] + 1 : lv; 
+		g[mb + "level"] = lv; 
+		if (fv == 5) { 
+			res = "_level" + lv; 
+			if (!eval(res)) loadMovie(u, lv); 
+		} else { 
+			res = mc.createEmptyMovieClip(mb + swfid, lv); 
+			res.loadMovie(u); 
+		} 
+		return res;
+	}
+
 	public function onCloseSplashMenu(): Void
 	{
 		UIManager.getInstance().showSelectStage(GlobalStorage.currentStage);

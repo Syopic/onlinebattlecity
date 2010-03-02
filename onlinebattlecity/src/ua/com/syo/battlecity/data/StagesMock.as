@@ -72,7 +72,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage3:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='11151111151111226244'>"+
 	"<r>________bb______bb________</r>"+ 
 	"<r>________bb______bb________</r>"+ 
 	"<r>__ggggggbb________________</r>"+ 
@@ -104,7 +104,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage4:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33373333336222215333'>"+
 	"<r>__gggg________________gg__</r>"+
 	"<r>__gggg________________gg__</r>"+
 	"<r>gggg______bbbb__________gg</r>"+
@@ -136,7 +136,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage5:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33373441151111126222'>"+
 	"<r>________bbbb______________</r>"+
 	"<r>________bbbb______________</r>"+
 	"<r>________bb______ffffff____</r>"+
@@ -168,7 +168,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage6:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33373332215111111184'>"+
 	"<r>___________b__b_gggg______</r>"+
 	"<r>___________b__b_gggg______</r>"+
 	"<r>__b__f__b________bggb__bgg</r>"+
@@ -200,7 +200,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage7:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='11162223337331115111'>"+
 	"<r>______________ffff________</r>"+
 	"<r>__________________________</r>"+
 	"<r>____ffffffff________ff____</r>"+
@@ -232,7 +232,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage8:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33337338422221151111'>"+
 	"<r>____bb____bb______bb______</r>"+
 	"<r>____bb____bb__bb__bb______</r>"+
 	"<r>ggbbbbbb__bb______bbb_____</r>"+
@@ -264,7 +264,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage9:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='11151122263333333844'>"+
 	"<r>______bb____________gg____</r>"+
 	"<r>______bb__________ffgg____</r>"+
 	"<r>bb____________gg_ffff___bb</r>"+
@@ -296,7 +296,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage10:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='11151111111522333384'>"+
 	"<r>__________________________</r>"+
 	"<r>__________________________</r>"+
 	"<r>___bbbbb____________bbbbb_</r>"+
@@ -328,7 +328,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage11:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='22262444448333322262'>"+
 	"<r>__________ff__bb__bbbb____</r>"+
 	"<r>__________ff__bb__bbbb____</r>"+
 	"<r>___bbbbbbbbb__bb__________</r>"+
@@ -360,7 +360,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage12:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33337333222622444844'>"+
 	"<r>______________bbbbbb______</r>"+
 	"<r>______________bbbbbb______</r>"+
 	"<r>__bbbbbb__________bb______</r>"+
@@ -392,7 +392,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage13:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33337333226222224844'>"+
 	"<r>__________________________</r>"+
 	"<r>________bb______bb________</r>"+
 	"<r>__bbbbbbbb______bbbbbbbb__</r>"+
@@ -424,7 +424,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage14:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33373333332262444484'>"+
 	"<r>__________________________</r>"+
 	"<r>__________________________</r>"+
 	"<r>gggg______bbbbbb______gggg</r>"+
@@ -457,7 +457,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage15:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='11622222222284444448'>"+
 	"<r>________bbbb____bb________</r>"+
 	"<r>________bbbb____bb________</r>"+
 	"<r>__ggggbbbb______bb________</r>"+
@@ -489,7 +489,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage16:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='11511111151111112284'>"+
 	"<r>__________________________</r>"+
 	"<r>__________________________</r>"+
 	"<r>____ffggff________________</r>"+
@@ -521,7 +521,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage17:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='44623333337311115111'>"+
 	"<r>__________________________</r>"+
 	"<r>________bb__________bb____</r>"+
 	"<r>__bb__bbbb____iiiiiibbbb__</r>"+
@@ -553,7 +553,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage18:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='44841133337322222622'>"+
 	"<r>________________ffffffgg__</r>"+
 	"<r>________________ffffffgg__</r>"+
 	"<r>__bb____________ff____ff__</r>"+
@@ -585,7 +585,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage19:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='22264444484411153333'>"+
 	"<r>__bb__bb__bb__bb__bb__bb__</r>"+
 	"<r>__bb__bb__bb__bb__bb__bb__</r>"+
 	"<r>__bb__bb__bb__bb__bb__bb__</r>"+
@@ -617,7 +617,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage20:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='22622222153344448444'>"+
 	"<r>______ww__bb____bb__bb____</r>"+
 	"<r>______ww__bb____bb__bb____</r>"+
 	"<r>________________bb__ff____</r>"+
@@ -649,7 +649,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage21:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33337333261111118444'>"+
 	"<r>__________________________</r>"+
 	"<r>______bbbbbb____bb________</r>"+
 	"<r>____bbbbbbbbbbbbbbbb______</r>"+
@@ -681,7 +681,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage22:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='22262222115111338444'>"+
 	"<r>__________gg______________</r>"+
 	"<r>__________gg______________</r>"+
 	"<r>________ggffgg____________</r>"+
@@ -713,7 +713,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage23:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='44448433336222222622'>"+
 	"<r>__________________________</r>"+
 	"<r>__________________________</r>"+
 	"<r>__________ffff____________</r>"+
@@ -745,7 +745,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage24:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33734422225111111151'>"+
 	"<r>____ff__bbff_________b____</r>"+
 	"<r>____ff__bb___________b____</r>"+
 	"<r>____bb__bbgg__bbbbbbbb____</r>"+
@@ -777,7 +777,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage25:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33622222228444444484'>"+
 	"<r>______ff__bb__bb__bb__ff__</r>"+
 	"<r>______ff__bb__bb__bb__ff__</r>"+
 	"<r>__bb__bb__________ff______</r>"+
@@ -809,7 +809,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage26:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='22262244484411153333'>"+
 	"<r>____wwww__________________</r>"+
 	"<r>____wwww__________________</r>"+
 	"<r>______wwgg__b_____________</r>"+
@@ -841,7 +841,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage27:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33844444482222222611'>"+
 	"<r>________ff________________</r>"+
 	"<r>________ff________________</r>"+
 	"<r>ffff____ff____ffff________</r>"+
@@ -873,7 +873,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage28:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='22811111115111111173'>"+
 	"<r>_____________________ff___</r>"+
 	"<r>_____________________ff___</r>"+
 	"<r>____________________ff____</r>"+
@@ -905,7 +905,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage29:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33733333372222448444'>"+
 	"<r>____________________bb____</r>"+
 	"<r>____________________bb____</r>"+
 	"<r>__bbwwww__ff__bb__________</r>"+
@@ -937,7 +937,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage30:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='11152222222633334844'>"+
 	"<r>__________________________</r>"+
 	"<r>__________________________</r>"+
 	"<r>__________________________</r>"+
@@ -969,7 +969,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage31:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33722222226444444733'>"+
 	"<r>______ww________ww________</r>"+
 	"<r>______ww________ww________</r>"+
 	"<r>wwww__ww__wwwwwwww__wwwwww</r>"+
@@ -1001,7 +1001,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage32:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='44484444115111332622'>"+
 	"<r>__iiiiiiiiii__iiiiiiiiii__</r>"+
 	"<r>__iiiiiiiiii__iiiiiiiiii__</r>"+
 	"<r>iiiiiiiiiiiiiiiiiiiiiiiiii</r>"+
@@ -1033,7 +1033,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage33:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='22264444448433332622'>"+
 	"<r>________ff________ff______</r>"+
 	"<r>________ff________ff______</r>"+
 	"<r>__ff______ff____ffgggg____</r>"+
@@ -1065,7 +1065,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage34:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33372222222622444484'>"+
 	"<r>________b__b______________</r>"+
 	"<r>________b__b______________</r>"+
 	"<r>b_b_b__b__b_____b_b_______</r>"+
@@ -1097,7 +1097,7 @@ class ua.com.syo.battlecity.data.StagesMock
  	
  	public static var stage35:XML=new XML
 	(
-	"<stage enemys='11262262233227348332'>"+
+	"<stage enemys='33372222264444444844'>"+
 	"<r>__________________________</r>"+
 	"<r>__________________________</r>"+
 	"<r>________bb__bb____________</r>"+

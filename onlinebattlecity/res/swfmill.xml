@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<movie width="256" height="232" framerate="41">
+<movie width="512" height="464" framerate="41">
     <background color="#747474" />
     <frame>
-       <import file="library.swf" url="library.swf"/>
+		<library>
+			<!--import file="library.swf" url="library.swf"/-->
+			<clip id="clip" import="library.swf"/>
+       </library>
     </frame>
 </movie>
