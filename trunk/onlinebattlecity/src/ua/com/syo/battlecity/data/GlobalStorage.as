@@ -11,6 +11,8 @@ class ua.com.syo.battlecity.data.GlobalStorage
 	public static var isLocal: Boolean = false;
 	public static var isRandomStages: Boolean = false;
 	public static var isClassicGame: Boolean = false;
+	public static var isOnlineMode: Boolean = false;
+	public static var isMochiAds: Boolean = true;
 	//	
 	public static var stagesNum: Number = 35;
 	public static var pathToStages: String = "stages/";

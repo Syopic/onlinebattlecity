@@ -1,6 +1,6 @@
 import ua.com.syo.battlecity.common.AsBroadcasterI;
 import ua.com.syo.battlecity.data.GlobalStorage;
-//import ua.com.syo.battlecity.data.StagesMock;
+import ua.com.syo.battlecity.data.StagesMock;
 /**
  * @author Krivosheya Sergey
  * @link www: http://syo.com.ua
@@ -14,24 +14,27 @@ class ua.com.syo.battlecity.model.HTTPServer implements AsBroadcasterI
 		AsBroadcaster.initialize(this);
 	}
 	
-	public function loadXML(path: String): Void
+	public function loadXML(path: String, stage:Number): Void
 	{
-		var stage_xml: XML = new XML();
-		stage_xml.load(path);
-		stage_xml.ignoreWhite = true;
-		
-		var $scope: HTTPServer = this; 
-		stage_xml.onLoad = function(success: Boolean):Void 
-		{
-			if (success) 
+		if (GlobalStorage.isOnlineMode) {
+			var stage_xml: XML = new XML();
+			stage_xml.load(path);
+			stage_xml.ignoreWhite = true;
+			
+			var $scope: HTTPServer = this; 
+			stage_xml.onLoad = function(success: Boolean):Void 
 			{
-				$scope.onStageLoad(XML(this));
-			} else 
-			{
-				trace("[Error: ] Not load");
-			}
-		};
-//		this.onStageLoad(StagesMock["stage"+stage]);
+				if (success) 
+				{
+					$scope.onStageLoad(XML(this));
+				} else 
+				{
+					trace("[Error: ] Not load");
+				}
+			};
+		} else {
+			this.onStageLoad(StagesMock["stage"+stage]);
+		}
 	}
 	
 	public function onStageLoad(xml: XML): Void

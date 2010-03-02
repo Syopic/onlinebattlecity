@@ -56,9 +56,20 @@ class ua.com.syo.battlecity.view.UIManager extends MovieClip implements AsBroadc
 	public function init() : Void {
 		AsBroadcaster.initialize(this);
 	}
+	
+	public function showMochiAds() : Void {
+		var myOptions:Object = {
+	    id: "3f8002d1f00ef5a3",
+	    res: "512x464",
+	    clip: _root,
+	    ad_finished: function ():Void { UIManager.getInstance().showSplashMenu(); }
+	}
+		mochi.as2.MochiAd.showPreGameAd(Object(myOptions));
+		//mochi.as2.MochiAd.showPreGameAd({id:"3f8002d1f00ef5a3", res:"512x464"});
+		//showSplashMenu();
+	}
 
 	public function showSplashMenu() : Void {
-		//		showGameOverScreen();
 		this.splashMenu = SplashMenu.create(this, "splashMenu", this.getNextHighestDepth());
 		this.splashMenu.init();
 		this.splashMenu.addListener(this);
